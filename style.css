@@ -70,3 +70,31 @@ form button {
 form button:hover {
     background-color: #555;
 }
+
+
+
+
+
+/*Contact*/
+.contact {
+    background-color: #ccc;
+}
+.contacth2 {
+    font-size: 2.5rem;
+}
+.name-email {
+    padding left: 2rem;
+}
+ .contactcontainer button:hover {
+background-color: aquamarine;
+color: #fff;
+font-size: 1.5rem;
+ }
+
+
+
+
+
+
+
+/*end of contact*/
