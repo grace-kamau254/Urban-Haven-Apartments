@@ -12,13 +12,17 @@ body {
 img {
     width: 400px;
 }
-.Available-spaces-list {
-    display: inline-block;
-}
 
-.available-spaces-item {
+.Available-Spaces {
     display: flex;
 }
+
+.available-spaces-container {
+    align-items: center;
+    justify-content: center;
+}
+
+
 
 nav {
     background-color: #b86363;
