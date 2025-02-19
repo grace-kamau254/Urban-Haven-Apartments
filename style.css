@@ -142,6 +142,30 @@ font-size: 1.5rem;
 }
 
 
+@media screen  and (max-width: 48em){
+
+    .Available-spaces-list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 1.4rem;
+    }
+    .Available-spaces-list p{
+        flex-wrap: wrap;
+    }
+
+
+}
+
+@media screen  and (max-width: 43.57em){
+
+    .Available-spaces-list{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
+
 /*End of Available Places*/
 
 
@@ -150,15 +174,16 @@ font-size: 1.5rem;
 /*about*/
 .about {
     background-image:url(./Images/aboutimg.jpg);
-    height: 70vh;
-    display: flex;
+    
+    display: block;
     justify-items: center;
     align-items: center;
 }
 
 
 .about-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-items: center;
     align-items: center;
     padding: 0.5 rem 2rem;
@@ -167,6 +192,17 @@ font-size: 1.5rem;
 }
 .about-us {
     padding: 2rem;
+}
+
+
+@media screen  and (max-width: 48em){
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        max-height: fit-content;
+
+    }
 }
 
 
