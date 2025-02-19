@@ -1,8 +1,23 @@
-body {
+html {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
+}
+
+body {
+    width: 100vw;
+}
+
+img {
+    width: 400px;
+}
+.Available-spaces-list {
+    display: inline-block;
+}
+
+.available-spaces-item {
+    display: flex;
 }
 
 nav {
@@ -82,11 +97,8 @@ form button:hover {
 .contacth2 {
     font-size: 2.5rem;
 }
-.name-email {
-    padding left: 2rem;
-}
  
- .contactcontainer button:hover {
+ .contact-container button:hover {
 background-color: rgb(63, 51, 165);
 color: #fff;
 font-size: 1.5rem;
@@ -103,11 +115,6 @@ font-size: 1.5rem;
     padding: 0.5 rem 2rem;
     gap: 2rem;
     background-color: #e8d7d7;
-}
-.Available-spaces-list{}
-    
-
-
 }
 
 
